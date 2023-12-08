@@ -1,0 +1,12 @@
+.buton1 {
+    background-color: #4CAF50;
+    padding: 10px;
+    color:white;
+}
+.dropdown-c{
+    display: none;
+}
+ button:focused .dropdown-c{
+    display: block;
+}
+
