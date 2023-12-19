@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body onload="init()">
+    <div class="navbar">
+
+      <h1>IMag</h1>
+      <nav>
+        <a href="#">Hello, Diana!</a>
+      </nav>
+
+    </div>
+    <section>
+      <ul class="items-container"></ul>
+      <div class="btn-container">
+        <button class="load-more" onclick="loadMore()">Load More</button>
+        <button class="back-top" onclick="window.scrollTo({top:0, behavior:'smooth'})">Back to top</button>
+      </div>
+    </section>
+    <script src="/main.js"></script>
+  </body>
+</html>
